@@ -1,0 +1,25 @@
+File Permissions in LINUX
+=========================
+A File can have 3 permissions 
+1. Read (r)
+2. Write (w)
+3. Execute (e)
+
+=> File permissions are devided into 3 sections
+Section 1 : User Permissions (first 3 characters rep User Permissions)
+Section 2 : Group Permissions (From 4th to 6th character rep Group Permissions)
+Section 3 : Others Permissions (From 7th to 9th character rep Group Permissions)
+
+Example:
+              -rw-rw-r--  1 beerenaresh beerenaresh    0 Sep  2 00:36 file1.txt
+              drwxrwxr-x  2 beerenaresh beerenaresh 4096 Sep  2 00:41 shanvika/
+
+-  ===> Indicates the Text File
+d  ===> Indicates the Directry File
+
+By default text file persmissions are
+     -rw-rw-r--
+By default Directry File Permissions are 
+     drwxrwxr-x
+
+
